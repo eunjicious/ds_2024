@@ -4,10 +4,10 @@ class CacheSimulator:
     def __init__(self, cache_slots):
         self.cache_slots = cache_slots
         self.cache_hit = 0
-        self.tot_cnt = 0
+        self.tot_cnt = 1
     
     def do_sim(self, page):
-        print("do_sim")
+        pass
         # Do programming here! 
         
     def print_stats(self):
