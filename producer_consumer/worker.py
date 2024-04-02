@@ -48,7 +48,7 @@ if __name__ == "__main__":
     producer = Producer(names)
 
     # Priority 
-    producer = Producer(customers)
+#    producer = Producer(customers)
 
     consumer = Consumer()    
     producer.start()
